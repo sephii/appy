@@ -6,6 +6,7 @@ setup(
     name='appy',
     version=version.short,
     packages=['appy', 'appy.shared', 'appy.pod'],
+    package_data={'appy.pod': ['*.xml']},
     description='The Appy framework',
     author='Sylvain Fankhauser',
     author_email='sylvain.fankhauser@gmail.com',
